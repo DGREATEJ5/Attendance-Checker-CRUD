@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&display=swap');
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: 'Anek Latin', sans-serif;
+    max-width: 800px;
+    box-shadow: 0 .4rem .8rem #0005;
+}
+
+.styled-table thead tr {
+    background-color:#5D29D7;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;   
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #5D29D7;
+}
+
+.btn {
+    border: none;
+    color: #fff;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #5D29D7;
+    width: 65px;
+    transition: all .2s ease;
+}
+
+/*.btn-edit {
+    background-color: #008cba;
+}
+
+.btn-delete {
+    background-color: #f44336;
+}
+
+.btn-view {
+    background-color: #e7e7e7;
+    color: black;
+}
+*/
+
+.btn-add {
+    background-color: #2dba4e;
+    width: 100px;
+    height: 35px;
+    margin-top: 30px;
+}
+
+
+.btn:active {
+    transform: scale(0.96);
+}
